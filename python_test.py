@@ -2,7 +2,7 @@
 import sys
 import os
 # import time
-os.system('')
+os.system('') # Added this to show color in windows terminal since windows doesn't use ANSI color codes
 class bcolors:
     """
     Colors for console
