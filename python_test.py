@@ -1,8 +1,10 @@
 
 import sys
 import os
+import tkinter as tk  
 # import time
-os.system('') # Added this to show color in windows terminal since windows doesn't use ANSI color codes
+window = tk.Tk()
+'''os.system('') # Added this to show color in windows terminal since windows doesn't use ANSI color codes
 class bcolors:
     """
     Colors for console
@@ -39,3 +41,4 @@ if __name__ == "__main__":
 SN_search(sys.argv[1], sys.argv[2])
 
 
+'''
